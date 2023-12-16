@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════,[Make sure you put all values in "" , '']\\
 global.owner = process.env.OWNER_NUMBER || '94782303652' ; // Add Your Number without +
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" ; // put mongodb key here
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wowmrnikiya:<nNpsxk6wZeSTC5kn>@nikiya.1lnhzxq.mongodb.net/" ; // put mongodb key here
 global.port=5000  ;
 global.audio = '' ; 
 global.video = '' ;
